@@ -1,0 +1,132 @@
+.head{
+    display: flex;
+    width: 1440px;
+    height: 146px;
+    background: #335E9D;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 33px;
+    align-items: center;  
+    /* box-sizing: border-box; */
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-around;
+}
+.nav1{
+    display: flex;
+    gap: 87px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav2{
+    height: 38px;
+    background: #EBEBEB;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 10px;
+    padding-left: 20px;
+}
+.li{
+    text-decoration: none;
+    color: black;
+    padding: 15px 0 15px 0;
+}
+.li3{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartegory{
+    padding: 30px 0 0;
+}
+.cartegory-left{
+    width: 15%;
+}
+.cartegory-right{
+    width: 85%;
+}
+.cartegory-right-top-item{
+    flex: 2;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0 12px;
+}
+.cartegory-right-content{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.cartegory-right-content-item{
+    width: calc(25% - 12px);
+    text-align: center;
+    padding: 12px 0;
+}
+.cartegory-right-content-item h1{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6px;
+    color: #333333;
+}
+.cartegory-right-content-item img{
+    width: 100%;
+}
+.cartegory-right-content-item p{
+    font-size: 14px;
+}
+.cartegory-right-bottom{
+    justify-content: space-between;
+    margin: 30px 0 20px;
+    width: 100%;
+}
+.cartegory-right-bottom p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.cartegory-left{
+    padding: 12px 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+.footer{
+    display: flex;
+    height: 350px;
+    background: #335E9D;
+    color: #FFFFFF;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 50px;
+    font-size: 14px;
+}
+.dc{
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+.flogo{
+    width: 177px;
+    padding-left: 50px;
+}
+.anh2{
+    display: flex;
+    width: 40px;
+    height: 36px;
+    gap: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.cs{
+    cursor: pointer;
+}
+.bando{
+    width: 300px;
+}
